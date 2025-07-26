@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Soumith+Kumar+Arja;Final+Year+CS+Student+%7C+AI+Explorer+%7C+Full+Stack+Mage;Leveling+Up+in+Tech+One+Commit+at+a+Time!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Soumith+Kumar+Arja" alt="Typing SVG" />
 </p>
 
 ---
@@ -26,7 +26,7 @@
 ```yaml
 Name:       Soumith Kumar Arja
 Class:      Full Stack Developer
-Level:      21 (Final-Year CS Wizard)
+Level:      21 (Final-Year CS Student)
 Alignment:  Chaotic Debugger
 XP:         ██████████░░░░░░░ 65%
 🧠 Skill Tree
