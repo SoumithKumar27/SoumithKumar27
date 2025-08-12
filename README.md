@@ -27,9 +27,7 @@
 ---
 
 ## 🚀 Current Quests
-- 🛠 Improving **Autonomous Vehicle Navigation** algorithm.
-- 🤖 Testing and validating **AI Calling Assistant**.
-- 🌐 Expanding skills in **Java Spring Boot** and **microservices**.
+- 🌐 Expanding skills in **DSA** and **AI/ML**.
 
 ---
 
