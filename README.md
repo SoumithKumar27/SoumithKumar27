@@ -22,7 +22,7 @@
 ## 📊 GitHub Stats
 | Stats | Streak |
 |-------|--------|
-| ![GitHub stats](https://github-readme-stats.vercel.app/api?username=SoumithKumarArja&show_icons=true&theme=radical) | ![GitHub streak](https://github-readme-streak-stats.herokuapp.com?user=SoumithKumarArja&theme=radical&hide_border=false) |
+| ![GitHub stats](https://github-readme-stats.vercel.app/api?username=SoumithKumar27&show_icons=true&theme=radical) | ![GitHub streak](https://github-readme-streak-stats.herokuapp.com?user=SoumithKumar27&theme=radical&hide_border=false) |
 
 ---
 
