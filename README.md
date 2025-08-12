@@ -1,10 +1,17 @@
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:ff6ec7,100:a18cd1&height=200&section=header&text=Soumith%20Kumar%20Arja&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35)
+<!-- Header: Retro Pokémon Battle Frame -->
+![Pokémon Header](https://capsule-render.vercel.app/api?
+type=rect&
+color=gradient&
+customColorList=0,2,5,30&
+height=200&
+section=header&
+text=Soumith%20Kumar%20Arja&
+fontColor=FFD700&
+fontSize=40&
+stroke=000000&
+strokeWidth=2)
 
-<!-- Typing Effect Tagline -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=FF6EC7&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%F0%9F%9A%80;C%2B%2B+%7C+Java+%7C+ReactJS+%7C+Spring+Boot;AI+and+Product+Development+Enthusiast;Always+Leveling+Up+%F0%9F%8F%86)](https://git.io/typing-svg)
-
----
 
 ## 🧑‍🚀 About Me
 > _"Turning coffee into code, and bugs into features."_  
@@ -75,4 +82,16 @@
 ---
 
 <!-- Footer -->
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:a18cd1,100:ff6ec7&height=120&section=footer&fontSize=24)
+<!-- Footer: Matching Footer Design -->
+![Pokémon Footer](https://capsule-render.vercel.app/api?
+type=rect&
+color=gradient&
+customColorList=0,2,5,30&
+height=120&
+section=footer&
+text=Trainer%20Soumith%20Signing%20Off.&
+fontColor=FFD700&
+fontSize=28&
+stroke=000000&
+strokeWidth=2)
+
