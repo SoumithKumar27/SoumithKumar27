@@ -9,21 +9,13 @@
 ## 🧑‍🚀 About Me
 > _"Turning coffee into code, and bugs into features."_  
 
-🎯 **Mission:** Build impactful, scalable, and beautiful products.  
-🛠 **Special Moves:** C++, Java, ReactJS, Tailwind CSS, Spring Boot, REST APIs.  
-🌱 **Currently Leveling Up:** Microservices, AI-powered applications.  
-🏆 **Recent Quest:** AI Product Validation Intern @ Equal | Autonomous Vehicle Navigation System project.  
+🎯 **Mission:** Build impactful and scalable products.  
+🛠 **Special Moves:** C++, Java, ReactJS, Python.  
+🌱 **Currently Leveling Up:** AngularJS, AI-powered applications, Cloud, REST APIs.  
+🏆 **Recent Quest:**  Autonomous Vehicle Navigation System project.  
 
 ---
 
-## 🏅 Skill Badges
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=rest&logoColor=white)
-![AI](https://img.shields.io/badge/AI-FF6EC7?style=for-the-badge&logo=openai&logoColor=white)
 
 ---
 
@@ -42,9 +34,8 @@
 ---
 
 ## 🏆 Achievements Unlocked
-- 🎯 Completed a **3D Brain MRI Segmentation Tool** using MeshNet & TensorFlow.js.
-- 🚀 Designed **Full-Stack Applications** with React, Tailwind, Spring Boot.
-- 📈 Contributed to **AI Product Development** projects with real-world deployments.
+- 🎯 Completed **NeuroView - 3D Brain MRI Segmentation Tool** using MeshNet & TensorFlow.js.
+- 🚀 Designed **StreamHive - Full-Stack Application** with React, Tailwind, Spring Boot.
 
 ---
 
@@ -56,9 +47,7 @@ Tailwind CSS ██████████░░░░░░ 65%
 Spring Boot █████████░░░░░░░ 60%
 AI/ML ████████░░░░░░░░ 50%
 
-yaml
-Copy
-Edit
+
 
 ---
 
