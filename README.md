@@ -41,7 +41,8 @@
 
 ---
 
-## 🛠 Skills <img src="https://raw.githubusercontent.com/YourUsername/YourRepo/main/assets/skills.svg" alt="Skills" />
+## 🛠 Skills 
+<img src="https://raw.githubusercontent.com/SoumithKumar27/SoumithKumar27/main/assets/skills.svg" alt="Skills" />
 
 
 ---
