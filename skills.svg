@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="520"
+     viewBox="0 0 1200 520"
+     preserveAspectRatio="xMidYMid meet">
+
+  <!-- === defs: gradients, textures, filters, markers === -->
+  <defs>
+    <!-- parchment gradient -->
+    <linearGradient id="parchment" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f3e9d2"/>
+      <stop offset="0.45" stop-color="#ecdcbc"/>
+      <stop offset="1" stop-color="#d8c297"/>
+    </linearGradient>
+
+    <!-- subtle noise texture using feTurbulence -->
+    <filter id="paperTexture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="mono"/>
+      <feBlend in="SourceGraphic" in2="mono" mode="multiply"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.05"/>
+      </feComponentTransfer>
+    </filter>
+
+    <!-- soft shadow -->
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+
+    <!-- inner subtle vignette -->
+    <radialGradient id="vignette" cx="50%" cy="30%" r="70%">
+      <stop offset="0" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="1" stop-color="rgba(0,0,0,0.08)"/>
+    </radialGradient>
+
+    <!-- bar gradient green -->
+    <linearGradient id="barGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#2ecc71"/>
+      <stop offset="1" stop-color="#1abc45"/>
+    </linearGradient>
+
+    <!-- bar background white -->
+    <linearGradient id="barBg" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient>
+
+    <!-- carved stroke effect -->
+    <filter id="engrave">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="blur"/>
+      <feOffset in="blur" dx="-1" dy="-1" result="offset1"/>
+      <feMerge>
+        <feMergeNode in="offset1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- nice serif like style (fallback to system serif): we can't embed Google fonts reliably -->
+    <style type="text/css"><![CDATA[
+      .title { font-family: "Georgia", "Times New Roman", serif; font-size:48px; fill:#4b2e05; font-weight:700;}
+      .sub { font-family: "Georgia", "Times New Roman", serif; font-size:18px; fill:#553918;}
+      .skillLabel { font-family: "Georgia", "Times New Roman", serif; font-size:20px; fill:#3a2514; font-weight:600;}
+      .pct { font-family: "Courier New", Courier, monospace; font-size:16px; fill:#172018; font-weight:700;}
+      .footer { font-family: "Georgia", "Times New Roman", serif; font-size:34px; fill:#4b2e05; font-weight:700;}
+    ]]></style>
+  </defs>
+
+  <!-- === Background parchment with vignette === -->
+  <rect x="0" y="0" width="1200" height="520" rx="14" ry="14" fill="url(#parchment)"/>
+  <rect x="0" y="0" width="1200" height="520" fill="url(#vignette)" style="mix-blend-mode:multiply"/>
+
+  <!-- apply paper texture by overlaying transparent noise -->
+  <g filter="">
+    <rect x="0" y="0" width="1200" height="520" fill="transparent" filter="url(#paperTexture)"/>
+  </g>
+
+  <!-- decorative top border (ornament) -->
+  <g transform="translate(40,18)">
+    <path d="M0 18 Q60 -10 120 18 T240 18 T360 18 T480 18 T600 18 T720 18 T840 18 T960 18 T1080 18 T1200 18"
+          fill="none" stroke="#7a5c2e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  </g>
+
+  <!-- Title (calligraphic feel) -->
+  <g transform="translate(60,70)">
+    <text x="0" y="0" class="title" style="filter:url(#engrave)">Soumith Kumar Arja</text>
+    <text x="2" y="40" class="sub">Developer · Thinker · Craftsman of Code</text>
+  </g>
+
+  <!-- === Grim Reaper (left) - stylized detailed silhouette === -->
+  <g transform="translate(55,120) scale(0.9)">
+    <!-- robe -->
+    <path d="M120 20 C60 80 40 240 120 350 C150 400 200 420 240 410 C210 350 200 300 210 240 C240 150 200 70 120 20 Z"
+          fill="#1a0b0b" stroke="#0f0505" stroke-width="2" opacity="0.98"/>
+    <!-- hood interior -->
+    <path d="M115 55 C100 40 90 60 110 85 C130 110 140 100 135 70 C130 45 125 40 115 55 Z"
+          fill="#050202"/>
+    <!-- arm + scythe handle -->
+    <path d="M240 160 C300 150 380 140 420 160 C450 175 480 200 510 230 L520 240 L522 236 C490 200 460 180 420 160 C400 152 330 159 260 170"
+          fill="none" stroke="#2b1a1a" stroke-width="10" stroke-linecap="round"/>
+    <!-- scythe blade -->
+    <path d="M520 240 C600 210 620 160 560 120 C520 92 470 90 450 110 C520 130 540 180 520 240 Z"
+          fill="#e9e6e2" stroke="#9a8f85" stroke-width="3"/>
+    <!-- faint details for cloak folds -->
+    <path d="M140 120 C120 150 110 200 120 260" fill="none" stroke="#0f0606" stroke-width="4" opacity="0.6"/>
+  </g>
+
+  <!-- === Worker at desk (right) - silhouette with laptop and desk === -->
+  <g transform="translate(820,120) scale(0.9)">
+    <!-- desk -->
+    <rect x="0" y="140" width="220" height="14" rx="4" fill="#2b1a1a"/>
+    <rect x="0" y="154" width="14" height="80" rx="3" fill="#2b1a1a"/>
+    <rect x="206" y="154" width="14" height="80" rx="3" fill="#2b1a1a"/>
+    <!-- chair -->
+    <path d="M40 120 C20 120 10 140 40 150 Q60 160 70 150 C90 140 80 120 40 120 Z" fill="#120a0a"/>
+    <!-- person -->
+    <ellipse cx="100" cy="80" rx="18" ry="20" fill="#120a0a"/>
+    <path d="M90 100 C80 140 80 160 95 185 C110 160 110 140 100 100 Z" fill="#120a0a"/>
+    <!-- laptop -->
+    <rect x="120" y="85" rx="4" ry="4" width="75" height="8" fill="#1f1f1f"/>
+    <rect x="128" y="65" rx="3" ry="3" width="59" height="24" fill="#dfe7e9" stroke="#bfc9cb" stroke-width="1.2"/>
+    <rect x="132" y="69" width="51" height="18" fill="#0a0a0a"/>
+  </g>
+
+  <!-- Divider line (to visually connect reaper -> worker) -->
+  <line x1="320" y1="260" x2="880" y2="260" stroke="#7a5c2e" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- === Skill bars group (center-left area) === -->
+  <g transform="translate(240,300)">
+    <!-- header for skill block -->
+    <text x="0" y="-28" class="skillLabel" fill="#3a2514">Level Progress</text>
+
+    <!-- reusable dimensions -->
+    <!-- bar group positions: each row height 42 -->
+    <!-- bar total width for 100% = 520 -->
+    <!-- we'll draw background, then filled rectangle according to percentage -->
+
+    <!-- Row 1: C++ 60% -->
+    <g transform="translate(0,0)">
+      <text x="0" y="20" class="skillLabel">C++</text>
+      <!-- background -->
+      <rect x="80" y="4" rx="10" ry="10" width="520" height="24" fill="url(#barBg)" stroke="#c9b79f" stroke-width="1.6"/>
+      <!-- filled -->
+      <rect x="80" y="4" rx="10" ry="10" width="{w}" height="24" fill="url(#barGrad)"
+            style="width:312px"/>
+      <!-- actual width inline because SVG doesn't evaluate expressions; use width for 60% -->
+      <rect x="80" y="4" rx="10" ry="10" width="312" height="24" fill="url(#barGrad)"/>
+      <text x="620" y="22" class="pct">60%</text>
+    </g>
+
+    <!-- Row 2: Java 70% -->
+    <g transform="translate(0,48)">
+      <text x="0" y="20" class="skillLabel">Java</text>
+      <rect x="80" y="4" rx="10" ry="10" width="520" height="24" fill="url(#barBg)" stroke="#c9b79f" stroke-width="1.6"/>
+      <rect x="80" y="4" rx="10" ry="10" width="364" height="24" fill="url(#barGrad)"/>
+      <text x="620" y="22" class="pct">70%</text>
+    </g>
+
+    <!-- Row 3: ReactJS 60% -->
+    <g transform="translate(0,96)">
+      <text x="0" y="20" class="skillLabel">ReactJS</text>
+      <rect x="80" y="4" rx="10" ry="10" width="520" height="24" fill="url(#barBg)" stroke="#c9b79f" stroke-width="1.6"/>
+      <rect x="80" y="4" rx="10" ry="10" width="312" height="24" fill="url(#barGrad)"/>
+      <text x="620" y="22" class="pct">60%</text>
+    </g>
+
+    <!-- Row 4: AI/ML 50% -->
+    <g transform="translate(0,144)">
+      <text x="0" y="20" class="skillLabel">AI/ML</text>
+      <rect x="80" y="4" rx="10" ry="10" width="520" height="24" fill="url(#barBg)" stroke="#c9b79f" stroke-width="1.6"/>
+      <rect x="80" y="4" rx="10" ry="10" width="260" height="24" fill="url(#barGrad)"/>
+      <text x="620" y="22" class="pct">50%</text>
+    </g>
+
+    <!-- Row 5: SQL 80% -->
+    <g transform="translate(0,192)">
+      <text x="0" y="20" class="skillLabel">SQL</text>
+      <rect x="80" y="4" rx="10" ry="10" width="520" height="24" fill="url(#barBg)" stroke="#c9b79f" stroke-width="1.6"/>
+      <rect x="80" y="4" rx="10" ry="10" width="416" height="24" fill="url(#barGrad)"/>
+      <text x="620" y="22" class="pct">80%</text>
+    </g>
+  </g>
+
+  <!-- subtle emboss on bars -->
+  <g transform="translate(240,300)" opacity="0.08">
+    <rect x="80" y="4" width="520" height="24" rx="10" fill="#000"/>
+    <rect x="80" y="52" width="520" height="24" rx="10" fill="#000"/>
+    <rect x="80" y="100" width="520" height="24" rx="10" fill="#000"/>
+    <rect x="80" y="148" width="520" height="24" rx="10" fill="#000"/>
+    <rect x="80" y="196" width="520" height="24" rx="10" fill="#000"/>
+  </g>
+
+  <!-- small legend below bars -->
+  <g transform="translate(240,470)">
+    <text x="0" y="0" class="sub">Progress bars show skill proficiency. More skills will be added over time.</text>
+  </g>
+
+  <!-- Footer "THE END" in same style -->
+  <g transform="translate(0,480)">
+    <rect x="0" y="0" width="1200" height="40" fill="transparent"/>
+    <text x="600" y="30" class="footer" text-anchor="middle" style="filter:url(#engrave)">THE END</text>
+  </g>
+
+</svg>
