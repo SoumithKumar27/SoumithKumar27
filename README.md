@@ -1,7 +1,7 @@
 
 <!-- Header: Retro Pokémon Battle Frame -->
-<!-- Game-Style Header -->
-![Pokémon Header](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=200&section=header&text=Soumith%20Kumar%20Arja&fontColor=FFD700&fontSize=40&stroke=000000&strokeWidth=2)
+<!-- ⚡ Game-Style Neon Header -->
+![Game Header](https://capsule-render.vercel.app/api?type=waving&height=250&color=0:ff0000,50:ff9900,100:00ffcc&text=Soumith%20Kumar%20Arja&fontAlign=50&fontAlignY=40&fontColor=ffffff&fontSize=45&stroke=000000&strokeWidth=3&animation=twinkling)
 
 
 ## 🧑‍🚀 About Me
@@ -73,6 +73,6 @@
 ---
 
 <!-- Footer -->
-<!-- Game-Style Footer -->
-![Pokémon Footer](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,5,30&height=120&section=footer&text=Trainer%20Soumith%20Signing%20Off.&fontColor=FFD700&fontSize=28&stroke=000000&strokeWidth=2)
+<!-- ⚡ Game-Style Neon Footer -->
+![Game Footer](https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:00ffcc,50:ff9900,100:ff0000&fontAlign=50&fontAlignY=70&text=Press%20Start%20to%20Continue...&fontColor=ffffff&fontSize=28&stroke=000000&strokeWidth=3&animation=twinkling)
 
