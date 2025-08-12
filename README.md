@@ -17,14 +17,21 @@
 ---
 
 
----
+## 📊 GitHub Performance Dashboard
 
-## 📊 GitHub Stats
-| Stats | Streak |
-|-------|--------|
-| ![GitHub stats](https://github-readme-stats.vercel.app/api?username=SoumithKumar27&show_icons=true&theme=radical) | ![GitHub streak](https://github-readme-streak-stats.herokuapp.com?user=SoumithKumar27&theme=radical&hide_border=false) |
+<div align="center">
 
----
+<!-- GitHub Stats -->
+<img src="https://github-readme-stats.vercel.app/api?username=SoumithKumar27&show_icons=true&theme=radical" alt="GitHub Stats" height="180px"/>
+&nbsp;
+<!-- GitHub Streak -->
+<img src="https://streak-stats.demolab.com?user=SoumithKumar27&theme=radical&hide_border=false" alt="GitHub Streak" height="180px"/>
+&nbsp;
+<!-- Top Languages -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SoumithKumar27&layout=compact&theme=radical" alt="Top Languages" height="180px"/>
+
+</div>
+
 
 ## 🚀 Current Quests
 - 🌐 Expanding skills in **DSA** and **AI/ML**.
@@ -38,12 +45,22 @@
 ---
 
 ## 🎮 Level Progress
-C++ ██████████░░░░░░ 70%
-Java ████████████░░░░ 80%
-ReactJS ██████████░░░░░░ 65%
-Tailwind CSS ██████████░░░░░░ 65%
-Spring Boot █████████░░░░░░░ 60%
-AI/ML ████████░░░░░░░░ 50%
+
+**C++**  
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 60%
+
+**Java**  
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 70%
+
+**ReactJS**  
+🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ 60%
+
+**AI/ML**  
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50%
+
+**SQL**  
+🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ 80%
+
 
 
 
