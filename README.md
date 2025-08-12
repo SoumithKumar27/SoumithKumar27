@@ -1,7 +1,7 @@
 
 <!-- Header: Retro Pokémon Battle Frame -->
 <!-- 🏛 Renaissance Italian Header -->
-![Renaissance Header](https://capsule-render.vercel.app/api?type=rect&height=220&color=0:f5e6ca,100:d1b38b&text=Soumith%20Kumar%20Arja&fontAlign=50&fontAlignY=45&fontColor=4b2e05&fontSize=42&desc=In%20arte%20et%20scientia%20fortitudo&descAlign=50&descAlignY=65&stroke=7a5c2e&strokeWidth=2&font=serif)
+![Renaissance Header](https://capsule-render.vercel.app/api?type=rect&height=200&color=0:f3e9d2,100:d8c297&text=Soumith%20Kumar%20Arja&fontAlign=50&fontAlignY=50&fontColor=4b2e05&fontSize=48&stroke=6e4b1f&strokeWidth=2&font=Great%20Vibes)
 
 
 ## 🧑‍🚀 About Me
@@ -75,4 +75,5 @@
 <!-- Footer -->
 
 <!-- 🏛 Renaissance Italian Footer -->
-![Renaissance Footer](https://capsule-render.vercel.app/api?type=rect&height=140&section=footer&color=0:d1b38b,100:f5e6ca&text=Finis&fontAlign=50&fontAlignY=60&fontColor=4b2e05&fontSize=28&stroke=7a5c2e&strokeWidth=2&font=serif)
+![Renaissance Footer](https://capsule-render.vercel.app/api?type=rect&height=150&color=0:f3e9d2,100:d8c297&text=THE%20END&fontAlign=50&fontAlignY=50&fontColor=4b2e05&fontSize=40&stroke=6e4b1f&strokeWidth=2&font=Great%20Vibes&section=footer)
+
