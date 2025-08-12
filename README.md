@@ -43,7 +43,42 @@
 
 ---
 
-![Skills & Progress](skills.svg)
+<h2>🛠 Skills</h2>
+
+<div style="margin: 8px 0;">
+  <strong>C++</strong>
+  <div style="background: #ddd; border-radius: 10px; overflow: hidden; width: 300px; height: 20px;">
+    <div style="background: #4CAF50; width: 60%; height: 100%;"></div>
+  </div>
+</div>
+
+<div style="margin: 8px 0;">
+  <strong>Java</strong>
+  <div style="background: #ddd; border-radius: 10px; overflow: hidden; width: 300px; height: 20px;">
+    <div style="background: #2196F3; width: 70%; height: 100%;"></div>
+  </div>
+</div>
+
+<div style="margin: 8px 0;">
+  <strong>ReactJS</strong>
+  <div style="background: #ddd; border-radius: 10px; overflow: hidden; width: 300px; height: 20px;">
+    <div style="background: #FF9800; width: 60%; height: 100%;"></div>
+  </div>
+</div>
+
+<div style="margin: 8px 0;">
+  <strong>AI / ML</strong>
+  <div style="background: #ddd; border-radius: 10px; overflow: hidden; width: 300px; height: 20px;">
+    <div style="background: #9C27B0; width: 50%; height: 100%;"></div>
+  </div>
+</div>
+
+<div style="margin: 8px 0;">
+  <strong>SQL</strong>
+  <div style="background: #ddd; border-radius: 10px; overflow: hidden; width: 300px; height: 20px;">
+    <div style="background: #F44336; width: 80%; height: 100%;"></div>
+  </div>
+</div>
 
 
 
