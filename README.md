@@ -8,7 +8,7 @@
 
 🎯 **Mission:** Build impactful and scalable products.  
 🛠 **Special Moves:** C++, Java, ReactJS, Python.  
-🌱 **Currently Leveling Up:** AngularJS, AI-powered applications, Cloud, REST APIs.  
+🌱 **Currently Leveling Up:** AngularJS, AI-powered applications, Cloud, REST APIs, Generative AI.  
 🏆 **Recent Quest:** Autonomous Vehicle Navigation System project.  
 
 ---
