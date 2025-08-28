@@ -13,6 +13,11 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
+    # ⭐️ ADD THIS permissions BLOCK ⭐️
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v3
 
@@ -22,7 +27,7 @@ jobs:
           # Your GitHub username is retrieved automatically
           github_user_name: ${{ github.repository_owner }}
           
-          # The output path for the animation file. This must match the path in your README
+          # The output path for the animation file
           outputs: output/snake.svg
       
       - name: Commit and push changes
