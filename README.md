@@ -63,4 +63,4 @@ My current focus is on leveling up across three core domains:<br><br>1. Sharpeni
 ---
 [![](https://visitcount.itsvg.in/api?id=SoumithKumar27&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<img src="https://raw.githubusercontent.com/SoumithKumar27/SoumithKumar27/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/SoumithKumar27/SoumithKumar27/main/output/snake.svg" alt="Snake animation" />
