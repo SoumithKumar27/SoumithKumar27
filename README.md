@@ -50,7 +50,7 @@
 <br clear="both">
 
 # 💫 About Me:
-My current focus is on leveling up across three core domains:<br><br>1. Sharpening Core Fundamentals: I'm diving deep into Data Structures and Algorithms to strengthen my foundational grasp of efficient and scalable code.<br><br>2. Building Practical Applications: Alongside theory, I'm actively building intuitive, full-stack applications. I believe in learning by doing and love bringing ideas to life.<br><br>3. Exploring the AI Frontier: I'm also dedicating time to the rapidly evolving field of AI/ML, specifically getting hands-on with advanced concepts like Agentic AI and Retrieval-Augmented Generation (RAG).
+My current focus is on leveling up across three core domains:<br><br>1. Sharpening Core Fundamentals: I'm diving deep into Data Structures and Algorithms to strengthen my foundational grasp of efficient and scalable code.<br><br>2. Building Practical Applications: Alongside theory, I'm actively building intuitive, full-stack applications. I believe in learning by doing and love bringing ideas to life.<br><br>3. Exploring the AI Frontier: I'm also dedicating time to the rapidly evolving field of AI/ML, specifically getting hands-on with advanced concepts like Agentic AI and Retrieval-Augmented Generation (RAG).<br><br>4. Also eager to learn about n8n and automation.
 
 ---
 
